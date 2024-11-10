@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Resume Form</h1>
+    <form id="form">
+        <h2>Personal Details</h2>
+        <hr style="margin-bottom: 30px;">
+        <div class="form-group">
+            <label class="label" for="name">Name:</label>
+            <input class="input" type="text" id="name"  required>
+        </div>
+        <div class="form-group">
+            <label class="label" for="desig">Designation:</label>
+            <input class="input" type="text" id="desig" ="off" required>
+        </div>
+        <div class="form-group">
+            <label class="label" for="phone">Phone:</label>
+            <input class="input" type="tel" id="phone" ="off" required>
+        </div>
+        <div class="form-group">
+            <label class="label" for="email">Email:</label>
+            <input class="input" type="email" id="email" ="off" required>
+        </div>
+        <div class="form-group">
+            <label class="label" for="add">Address:</label>
+            <input class="input" type="text" id="add" ="off" required>
+        </div>
+        <div class="form-group">
+            <label class="label" for="pic">Profile Picture:</label>
+            <input class="input" type="file" id="pic" ="off" required>
+        </div>
+        <div>
+            <h2>Education</h2>
+            <hr style="margin-bottom: 20px;">
+            <div class="form-group">
+                <label class="label" for="pass">Passing Year:</label>
+                <input class="input" type="number" id="pass"  required>
+            </div>
+            <div class="form-group">
+                <label class="label" for="deg">Degree:</label>
+                <input class="input" type="text" id="deg" required>
+            </div>
+            <div class="form-group">
+                <label class="label" for="uni">University:</label>
+                <input class="input" type="text" id="uni" ="off" required>
+            </div>
+    
+            <!-- <h2>Interme</h2> -->
+            <div class="form-group">
+                <label class="label" for="pass1">Passing Year:</label>
+                <input class="input" type="number" id="pass1" ="off" required>
+            </div>
+            <div class="form-group">
+                <label class="label" for="deg1">Degree2:</label>
+                <input class="input" type="text" id="deg1" ="off"required>
+            </div>
+            <div class="form-group">
+                <label class="label" for="uni2">Institute:</label>
+                <input class="input" type="text" id="uni2" ="off" required>
+            </div>
+        </div>
+       
+
+        <h2>Skills</h2>
+        <div class="form-group">
+            <label class="label" for="skill1">Skill 1:</label>
+            <input class="input mb-20" type="text" id="skill1">
+            <label class="label" for="skill2">Skill 2:</label>
+            <input class="input mb-20" type="text" id="skill2">
+            <label class="label" for="skill3">Skill 3:</label>
+            <input class="input mb-20" type="text" id="skill3">
+        </div>
+
+        <h2>Languages</h2>
+        <div class="form-group">
+            <label class="label" for="lang">Language 1:</label>
+            <input class="input mb-20" type="text" id="lang">
+            <label class="label" for="lang2">Language 2:</label>
+            <input class="input" type="text" id="lang2">
+        </div>
+
+        <h2>Experience</h2>
+        <div class="form-group">
+            <label class="label" for="styear">Start Year:</label>
+            <input class="input mb-20" type="number" id="styear" >
+
+            <label class="label" for="endyear">End Year:</label>
+            <input class="input mb-20" type="number" id="endyear" >
+
+            <label class="label" for="company">Company:</label>
+            <input class="input mb-20" type="text" id="company" >
+
+            <label class="label" for="comlocation">Company Location:</label>
+            <input class="input mb-20" type="text" id="comlocation" >
+
+            <label class="label" for="jobtitle">Job Title:</label>
+            <input class="input mb-20" type="text" id="jobtitle" >
+
+            <label class="label" for="achv">Achievement 1:</label>
+            <input class="input mb-20" type="text" id="achv1">
+            <input class="input mb-20" type="text" id="achv2">
+            <input class="input mb-20" type="text" id="achv3" >
+        </div>
+
+        <br>
+        <hr style="margin-bottom: 20px;">
+        <div class="btnDiv">
+            <input id="submitbtn"  class="submit" type="submit" >
+        </div>
+    </form>
+
+</body>
+<script src="script.js"></script>
+</html>

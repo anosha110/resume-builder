@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.resumeDiv {
+    width: 70%;
+    border: 2px solid black;
+}
+
+header {
+    width: 100%;
+    height: 160px;
+    background-color: aquamarine;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+header img {
+    width: 150px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+}
+
+.content aside {
+    width: 30%;
+    padding: 20px 50px 50px 50px; 
+    background-color: #f3e8ff; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+.contact,
+.Education,
+.skill,
+.language {
+    margin-bottom: 30px;
+}
+
+
+.contact h2,
+.Education h2,
+.skill h2,
+.language h2,
+.intro,
+.certifications h2 {
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    padding-bottom: 3px;
+}
+
+.Education {
+    line-height: 20px;
+}
+
+.skill ul {
+    margin-left: 19px;
+}
+
+.main-content {
+    width: 70%;
+    padding-left: 50px;
+    padding-top: 30px;
+    background-color: white;
+}
+
+.experience-items {
+    margin-bottom: 40px;
+}
+
+.experience-items p {
+    margin-bottom: 5px;
+}
+
+.experience-items ul {
+    margin-left: 18px;
+    margin-top: 15px;
+}
+
+.projects {
+    margin-bottom: 40px;
+}
+
+.projects h2 {
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    padding-bottom: 3px;
+}
+
+.projects ul {
+    margin-left: 18px;
+    margin-top: 10px;
+}
+
+.projects ul li {
+    margin-bottom: 5px;
+}
+
+
+.certifications {
+    margin-bottom: 50px;
+}
+
+
+.btnDiv{
+    width: 70%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.btn{
+    font-size: 18px;
+    font-weight: 600px;
+    padding: 10px 14px;
+    border-radius: 8px;
+    color: black;
+    background: rgb(195, 227, 237);
+    &:hover{
+        background: aquamarine;
+
+    }
+    &:active{
+        transform: scale(0.95);
+    }
+}
+
+.hide{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content aside, .main-content {
+        width: 100%;
+    }
+
+    header {
+        padding: 20px;
+    }
+
+    .resumeDiv {
+        width: 90%;
+        padding: 15px;
+    }
+
+    header img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .main-content, .content aside {
+        padding: 20px;
+    }
+    .btnDiv {
+        flex-direction: row; 
+        align-items: center; 
+    }
+
+    .btn {
+        margin-bottom: 10px; 
+    }
+}
+   
