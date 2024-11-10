@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <link rel="stylesheet" href="resumeStyle.css" />
+</head>
+<body>
+    <div class="resumeDiv">
+        <header>
+            <div>
+                <h1> <span id="resName"></span></h1>
+                <p> <span id="resDesig"></span></p>
+            </div>
+            <img id="profile_pic" src="" alt="Profile Picture" />
+        </header>
+        <div class="content">
+            <aside>
+                <section class="contact">
+                    <h2>Contact</h2>
+                    <p><strong>Phone</strong></p>
+                    <p><span id="resPhone"></span></p>
+                    <br>
+                    <p><strong>Email</strong></p>
+                    <p><span id="resEmail"></span></p>
+                    <p><strong>Address</strong></p>
+                    <p><span id="resAdd"></span></p>
+                </section>
+                <section class="Education">
+                    <h2>Education</h2>
+                    <p><span id="resPass"></span></p>
+                    <p><strong><span id="resDeg"></span></strong></p>
+                    <p><span id="resinsti"></span></p>
+                    <br />
+                    <p><span id="respass2"></span></p>
+                    <p><strong><span id="resdeg2"></span></strong></p>
+                    <p><span id="resInsti2"></span></p>
+                </section>
+                <section class="skill">
+                    <h2>Experties</h2>
+                    <ul>
+                        <li><span id="reSskill1"></span></li>
+                        <li><span id="resSkill2"></span></li>
+                        <li><span id="resSkill3"></span></li>
+                     
+                    </ul>
+                </section>
+                <section class="language">
+                    <h2>Languages</h2>
+                    <p><span id="reslang"></span></p>
+                    <p><span id="reslang2"></span></p>
+                 
+                </section>
+            </aside>
+            <main class="main-content">
+                <!-- <section class="intro">
+                     <p>
+                        A motivated individual with in-depth knowledge of languages and development tools, seeking a
+                        position in a growth-oriented company where I can use my skills to the advantage of the company
+                        while having the scope to develop my own skills.
+                    </p> -->
+                </section> 
+                <section class="experience">
+                    <h2>Experience</h2>
+                    <div class="experience-items">
+                        <p><span id="resStartYear"></span> - <span id="resEndYear"></span></p>
+                        <p><strong><span id="resCompany"></span> <span id="rescompLocation"></span></strong></p>
+                        <p><span id="resjobTitle"></span></p>
+                        <ul>
+                            <li><span id="resachv1"></span></li>
+                            <li><span id="resachv2"></span></li>
+                            <li><span id="resachv3"></span></li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="projects">
+                    <h2>Mini Projects</h2>
+                    <ul>
+                        <li>Tic Tac Toe (PHP)</li>
+                        <li>2-Player Game (Ludo) (PHP)</li>
+                        <li>E-commerce Website (PHP)</li>
+                        <li>Puzzle Game</li>
+                        <li>Slip Generator, Check Luck, Calculator</li>
+                        <li>CRUD System - Student Login</li>
+                    </ul>
+                </section>
+                <section class="certifications" id="cer">
+                    <h2>Certifications</h2>
+                    <p>Diploma in Web Development</p>
+                </section>
+            </main>
+        </div>
+    </div>
+    <div class="btnDiv">
+      
+        <button id="print_btn" class="btn">Print</button>
+        <button id="edit_btn" class="btn">Edit</button>
+    </div>
+
+    <script src="resumeScript.js"></script>
+</body>
+</html>
